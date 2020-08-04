@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Đăng kí</title>
+</head>
+<body>
+    <!-- element background -->
+    <div class="element-background">
+        <!-- header content-->
+        <div class="header">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo1.png" alt="" /></a>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="../index.html">Trang chủ</a>
+                        <a href="../giới thiệu/about.html">Giới thiệu</a>
+                        <a href="../dịch vụ/sevice.html">Dịch vụ</a>
+                        <a href="../liên hệ/contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- text header -->
+        <h1 class="text-header">Đăng kí</h1>
+    </div>
+
+    <!-- signup content -->
+    <div class="container">
+        <form action="">
+            <label for="uname"><b>Họ tên</b></label>
+            <input type="text" placeholder="Nhâp họ và tên" name="uname" required />
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Nhập email" name="psw" required />
+
+            <label for="number"><b>Số điện thoại</b></label>
+            <input type="text" placeholder="Nhập SĐT" name="number" required />
+
+            <label for="psw"><b>Mật khẩu</b></label>
+            <input type="password" placeholder="Nhập mật khẩu" name="psw" required />
+
+            <label for="psw-repeat"><b>Nhập lại mật khẩu</b></label>
+            <input type="password" placeholder="Nhập lại mật khẩu" name="psw-repeat" required>
+
+            <button type="submit">Sin up</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" /> Ghi nhớ
+            </label>
+            <br>
+            <a href="../index.html"><button type="button" class="cancelbtn">Thoát</button></a>
+        </form>
+    </div>
+</body>
+</html>
